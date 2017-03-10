@@ -6,7 +6,10 @@
  * Time: 22:21
  */
 
-Class getPriceHistory
-{
+Class getPriceHistory{
+
+    function printArr($arr){
+        echo "<pre>".print_r($arr, true)."</pre>";
+    }
 
 }
